@@ -2,14 +2,14 @@
 const filterData = (data, filters) => {
     if(filters['minQuant']) {
         for(datum in data) {
-            if(data[datum]['totalQuant'] < filters['minQuant']) {
+            if(data[datum]['Total Quant'] < filters['minQuant']) {
                 delete data[datum];
             }
         }
     }
     if(filters['maxShippingPerItem']) {
         for(datum in data) {
-            if(data[datum]['shippingPerItem'] > filters['maxShippingPerItem']) {
+            if(data[datum]['Shipping Per Item'] > filters['maxShippingPerItem']) {
                 delete data[datum];
             }
         }
