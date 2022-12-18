@@ -1,12 +1,12 @@
 const { moneyRound } = require('./moneyRound');
 
-const processData = (shopName, itemName, price, quant, shippingPolicy, gatheredData, minPrice) => {
+const processData = (shopName, shopUrl, itemName, price, quant, shippingPolicy, gatheredData, minPrice) => {
     if(shippingPolicy === 50) { 
         //Shop is TCG Direct and can share inventory
         if('TCG Shop' in gatheredData) {
           //requires update to data
             let shop = gatheredData['TCG Shop'];
-            shop['Shop Names'][shopName] = shopName; 
+            shop['Shop Names'][shopName] = shopUrl; 
             shop['Item Names'][itemName] = itemName;
             shop['Price'].push(price);
             shop['Lowest Price Available'].push(minPrice);
@@ -19,7 +19,7 @@ const processData = (shopName, itemName, price, quant, shippingPolicy, gatheredD
             //have encountered a TCG Direct shop for the first time
             gatheredData['TCG Shop'] = {
                 'Shop Names': {
-                    [shopName]: shopName
+                    [shopName]: shopUrl
                 },
                 'Item Names': {
                     [itemName]: itemName
@@ -50,6 +50,7 @@ const processData = (shopName, itemName, price, quant, shippingPolicy, gatheredD
     } else {
         //encountered shop for the first time
         gatheredData[shopName] = {
+                'Shop Url': shopUrl,
                 'Item Names': [itemName],
                 'Price': [price],
                 'Lowest Price Available': [minPrice],
