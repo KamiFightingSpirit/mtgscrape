@@ -1,5 +1,8 @@
 # mtgscrape
 
+What Does this Do?
+Sellers on TCG player often have some low priced cards and others that are higher. Trying to find the best price for a bundle of cards is difficult due to the setup of the website. This takes a list of cards (their URLs on TCG Player), allows you to configure the quality, type, and quantity you are searching for, and then finds shops that carry multiple cards in your search that have low prices. Combined with the shipping information it provides to you as well you should be able to narrow down your search to the best possible price pretty effectively.
+
 Getting Started:
 
 1. Have Node.js
