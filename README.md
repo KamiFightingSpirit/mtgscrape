@@ -4,7 +4,7 @@ Getting Started:
 
 1. Have Node.js
 2. Copy down the repo
-3. Navigate to repo in console and type `node index.js`
+3. Navigate to repo in console and `npm install` and then `node index.js`
 
 Configuring:
 
