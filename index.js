@@ -46,7 +46,6 @@ let urls = [
     'https://www.tcgplayer.com/product/279831/magic-dominaria-united-island-showcase',
     'https://www.tcgplayer.com/product/279832/magic-dominaria-united-swamp-showcase',
     'https://www.tcgplayer.com/product/279833/magic-dominaria-united-mountain-showcase',
-    'https://www.tcgplayer.com/product/279834/magic-dominaria-united-forest-showcase',
     //Streets of New Capenna
     'https://www.tcgplayer.com/product/265356/magic-streets-of-new-capenna-mountain-279',
     //Kamigawa - Neon Dynasty
