@@ -4,7 +4,7 @@ const { getFloatFromString } = require('./helperfunctions/getFloatFromString');
 const { filterData } = require('./helperfunctions/filterData');
 const { processData } = require('./helperfunctions/processData');
 const { processUrls } = require('./helperfunctions/processUrls');
-const cardurls = require('./cardurls');
+let cardurls = require('./cardurls');
 
 //OPTIONS
 const headless = false; // false -> show chromium (will be slower)
@@ -14,7 +14,8 @@ const maxQuantPerCard = 17; // How many of each card do you wish to purchase at 
 const filters = {
     maxShippingPerItem: 0.15 // Final results will not include those with shippingPerItem > maxShippingPerItem, set to false to ignore
 };
-urlOptions = {
+
+const urlOptions = {
     'Show Non-Foil': false,
     'Show Foil': true,
     'Quality': {
