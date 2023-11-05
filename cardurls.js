@@ -1,4 +1,27 @@
 const cardurls = [
+    //TALES OF MIDDLE EARTH
+    //FULL ART
+    'https://www.tcgplayer.com/product/488253/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-plains-0272',
+    'https://www.tcgplayer.com/product/488126/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-plains-0273',
+    'https://www.tcgplayer.com/product/488250/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-island-0274',
+    'https://www.tcgplayer.com/product/488129/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-island-0275',
+    'https://www.tcgplayer.com/product/488254/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-swamp-0276',
+    'https://www.tcgplayer.com/product/488131/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-swamp-0277',
+    'https://www.tcgplayer.com/product/488252/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-mountain-0278',
+    'https://www.tcgplayer.com/product/488134/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-mountain-0279',
+    'https://www.tcgplayer.com/product/488251/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-forest-0280',
+    'https://www.tcgplayer.com/product/488133/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-forest-0281',
+    //SURGE FOIL
+    'https://www.tcgplayer.com/product/517971/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-plains-0713-surge-foil',
+    'https://www.tcgplayer.com/product/517960/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-plains-0714-surge-foil',
+    'https://www.tcgplayer.com/product/517973/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-island-0715-surge-foil',
+    'https://www.tcgplayer.com/product/517965/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-island-0716-surge-foil',
+    'https://www.tcgplayer.com/product/517962/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-swamp-0717-surge-foil',
+    'https://www.tcgplayer.com/product/517975/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-swamp-0718-surge-foil',
+    'https://www.tcgplayer.com/product/526188/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-mountain-0719-surge-foil',
+    'https://www.tcgplayer.com/product/526189/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-mountain-0720-surge-foil',
+    'https://www.tcgplayer.com/product/517963/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-forest-0721-surge-foil',
+    'https://www.tcgplayer.com/product/517972/magic-universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-forest-0722-surge-foil',
     //Wilds of Eldraine (WOE)
     'https://www.tcgplayer.com/product/509492/magic-wilds-of-eldraine-plains-0262',
     'https://www.tcgplayer.com/product/509490/magic-wilds-of-eldraine-island-0263',
